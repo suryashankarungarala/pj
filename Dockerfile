@@ -5,3 +5,4 @@ RUN apt install default-jdk -y
 RUN apt install mysql-server -y
 EXPOSE 80
 VOLUME volume1
+COPY index.html /var/www/html/
